@@ -1,6 +1,6 @@
 # LeetMetric Tracker
 
-[Live Demo]
+[Live Demo]( https://vaishali498.github.io/leetmetric-tracker/)
 
 A clean, responsive, and interactive **LeetCode Stats Tracker** built using **HTML, CSS, and JavaScript**.  
 Enter any LeetCode username to view **Easy / Medium / Hard problem stats** along with dynamic progress bars, inspired by the LeetCode theme (Minimal White + Orange).
