@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Profile Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="title">LeetCode Profile Checker</h1>
+
+    <div class="card">
+        <input type="text" id="username" placeholder="Enter LeetCode Username">
+        <button onclick="openLeetCodeProfile()">View Profile</button>
+    </div>
+
+    <h2 class="sub-title">Your Problem Stats</h2>
+
+    <div class="stats-container">
+        <div class="stat-card easy">
+            <p>Easy</p>
+            <div class="progress">
+                <div class="bar" id="easyBar"></div>
+            </div>
+            <span id="easyPercent">0%</span>
+        </div>
+
+        <div class="stat-card medium">
+            <p>Medium</p>
+            <div class="progress">
+                <div class="bar" id="mediumBar"></div>
+            </div>
+            <span id="mediumPercent">0%</span>
+        </div>
+
+        <div class="stat-card hard">
+            <p>Hard</p>
+            <div class="progress">
+                <div class="bar" id="hardBar"></div>
+            </div>
+            <span id="hardPercent">0%</span>
+        </div>
+    </div>
+
+    <button class="loadBtn" onclick="loadStats()">Load Stats ➜</button>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #222;
+    padding: 20px;
+}
+
+.container {
+    max-width: 550px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ff9100;
+    font-weight: 700;
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 14px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    display: flex;
+    gap: 10px;
+}
+
+.card input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ff9100;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.card button {
+    padding: 12px 20px;
+    border: none;
+    background: #ff9100;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #ff7b00;
+}
+
+.sub-title {
+    margin-top: 30px;
+    font-size: 22px;
+    text-align: center;
+    color: #222;
+    font-weight: 600;
+}
+
+.stats-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.stat-card {
+    padding: 18px;
+    border-radius: 14px;
+    background: #fff;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.07);
+    transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(255, 145, 0, 0.3);
+}
+
+.stat-card p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.progress {
+    background: #eee;
+    height: 12px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    width: 0%;
+    border-radius: 20px;
+    transition: width 0.8s ease;
+}
+
+.easy .bar { background: #4caf50; }
+.medium .bar { background: #ff9100; }
+.hard .bar { background: #e53935; }
+
+.stat-card span {
+    font-size: 16px;
+    margin-top: 8px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.loadBtn {
+    margin-top: 25px;
+    width: 100%;
+    padding: 14px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.loadBtn:hover {
+    background: #222;
+}
